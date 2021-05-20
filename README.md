@@ -2,4 +2,4 @@
 
 This applet is based on the work of GitHub user npatel023, whose video can be found at https://www.youtube.com/watch?v=vrj9AohVhPA.
 
-This repository is currently at 10:33 in the video.
+This repository is currently at 13:00 in the video.
