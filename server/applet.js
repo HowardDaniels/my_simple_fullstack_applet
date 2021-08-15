@@ -5,3 +5,4 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 applet.use(cors());
+applet.use(express.json());
