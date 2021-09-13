@@ -6,3 +6,4 @@ dotenv.config();
 
 applet.use(cors());
 applet.use(express.json());
+applet.use(express.urlencoded({ extended : false}));
