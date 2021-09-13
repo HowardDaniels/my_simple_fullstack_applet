@@ -10,6 +10,9 @@ applet.use(express.urlencoded({ extended : false}));
 
 
 // create
+applet.post('/insert', (request, response) => {
+
+});
 
 
 // read
