@@ -16,6 +16,9 @@ applet.post('/insert', (request, response) => {
 
 
 // read
+applet.get('/getAll', (request, response) => {
+    console.log('This is a test.');
+});
 
 
 // update
