@@ -17,7 +17,9 @@ applet.post('/insert', (request, response) => {
 
 // read
 applet.get('/getAll', (request, response) => {
-    console.log('This is a test.');
+    response.json({
+        success: true
+    })
 });
 
 
@@ -25,3 +27,5 @@ applet.get('/getAll', (request, response) => {
 
 
 // delete
+
+applet.listen(process.env.PORT, () => console.log("Your applet is running."))
